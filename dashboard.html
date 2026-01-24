@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - SaaSify</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="sidebar">
+    <h2>SaaSify</h2>
+    <a href="dashboard.html">Dashboard</a>
+    <a href="index.html">Home</a>
+    <a href="#" onclick="logoutUser()">Logout</a>
+</div>
+
+<div class="main"> 
+    <h2>Your Analytics</h2>
+
+<div class="chart-box" data-aos="fade-up">
+    <canvas id="salesChart"></canvas>
+</div>
+
+<div class="chart-box" data-aos="fade-up">
+    <canvas id="usersChart"></canvas>
+</div>
+
+    <h1>Welcome to your Dashboard 🎉</h1>
+    <p>Your analytics and data will show here.</p>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="script.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+</body>
+</html>
+
+</body>
+</html>

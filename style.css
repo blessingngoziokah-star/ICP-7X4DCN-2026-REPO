@@ -1,0 +1,195 @@
+/* ----------------------
+   GLOBAL STRIPE STYLE
+---------------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background: #f6f9fc;
+    color: #1a1f36;
+    line-height: 1.5;
+}
+
+/* ----------------------
+   HEADER
+---------------------- */
+header {
+    padding: 24px 60px;
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid #e5e7eb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: 700;
+    color: #4c6fff;
+}
+
+nav a {
+    margin-right: 25px;
+    text-decoration: none;
+    color: #425466;
+    font-weight: 500;
+}
+
+.btn {
+    background: #4c6fff;
+    padding: 10px 22px;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    opacity: 0.85;
+}
+
+/* ----------------------
+   HERO
+---------------------- */
+.hero {
+    padding: 150px 40px;
+    text-align: center;
+    background: linear-gradient(135deg, #4c6fff, #7d89ff);
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 56px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    opacity: 0.9;
+}
+
+/* ----------------------
+   SECTIONS
+---------------------- */
+section h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 100px;
+}
+
+/* ----------------------
+   FEATURES CARDS
+---------------------- */
+.feature-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 60px;
+}
+
+.card {
+    width: 280px;
+    padding: 35px;
+    background: rgba(255,255,255,0.9);
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    backdrop-filter: blur(10px);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+}
+
+/* ----------------------
+   PRICING
+---------------------- */
+.price-card {
+    width: 350px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 40px;
+    border-radius: 18px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.price {
+    font-size: 48px;
+    font-weight: 700;
+    margin: 15px 0;
+}
+
+/* ----------------------
+   AUTH PAGES
+---------------------- */
+.auth-container {
+    width: 420px;
+    margin: 80px auto;
+    background: #fff;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.08);
+}
+
+.auth-container input {
+    width: 100%;
+    padding: 15px;
+    margin: 12px 0;
+    border: 1px solid #e0e6ed;
+    border-radius: 10px;
+}
+
+/* ----------------------
+   DASHBOARD
+---------------------- */
+.sidebar {
+    width: 230px;
+    background: #fff;
+    height: 100vh;
+    padding: 30px 20px;
+    position: fixed;
+    border-right: 1px solid #e5e7eb;
+}
+
+.sidebar a {
+    display: block;
+    margin: 20px 0;
+    text-decoration: none;
+    color: #425466;
+    font-weight: 500;
+}
+
+.main {
+    margin-left: 260px;
+    padding: 50px;
+}
+
+.main h1 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+/* CHART BOX */
+.chart-box {
+    width: 650px;
+    margin: 40px auto;
+    padding: 25px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
